@@ -47,6 +47,8 @@ from .solvers import (
 )
 from .validation import run_regression_tests, run_independent_allocation_validation
 from .synthetic import build_synthetic_equilibrium, build_synthetic_optics
+from .visualization import plot_inversion_validation, launch_interactive_dashboard
+from . import profiles, equilibrium, flux_grid, optics, geometry_core, inversion_matrix, visualization, solvers, validation, synthetic
 
 __version__ = "0.1.0"
 
@@ -74,4 +76,6 @@ __all__ = [
     "run_independent_allocation_validation",
     "build_synthetic_equilibrium",
     "build_synthetic_optics",
+    "plot_inversion_validation",
+    "launch_interactive_dashboard",
 ]
