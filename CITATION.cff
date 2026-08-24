@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "FSCI: Flux-Surface Constrained Inversion for TCABR"
+version: 0.1.0
+date-released: "2026-08-23"
+authors:
+  - family-names: "NOVAES"
+    given-names: "Douglas"
+    affiliation: "Instituto de Física, Universidade de São Paulo (USP)"
+    orcid: "https://orcid.org/0000-0002-9504-9872"
+repository-code: "https://github.com/dougnovaes/tcabr-fsci"
+license: MIT
+keywords:
+  - tokamak
+  - plasma physics
+  - fusion
+  - tomography
+  - inverse problems
+  - TCABR

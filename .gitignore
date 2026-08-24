@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experimental / lab data — do not version real TCABR data in a public repo
+data/*
+!data/.gitkeep
+*.eqdsk
+*.mat
+*.eqdsk.bak
+
+# Test / coverage artifacts
+.pytest_cache/
+htmlcov/
+.coverage
